@@ -1,0 +1,15 @@
+@import "~bootstrap/scss/bootstrap";
+
+
+$color-red: rgb(255, 20, 20);
+
+p {
+  color: $color-red;
+}
+
+.cardGame {   
+    margin: 30px;
+    height: auto;
+    width: 30px; 
+
+  }
