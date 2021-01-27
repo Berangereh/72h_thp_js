@@ -10619,6 +10619,24 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-p {
+body {
+  background: black;
+  color: white;
+  padding: 30px;
+}
+
+.cardGame {
+  background: transparent;
+  color: white;
+  margin: 30px;
+  height: 300px;
+  width: 300px;
+}
+
+.page_title {
   color: #ff1414;
+}
+
+.navbar {
+  background: transparent;
 }

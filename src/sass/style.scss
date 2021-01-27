@@ -2,14 +2,29 @@
 
 
 $color-red: rgb(255, 20, 20);
+$color-grey: black;
 
-p {
-  color: $color-red;
+
+body {
+  background: $color-grey;
+  color: white;
+  padding: 30px;
 }
 
 .cardGame {   
+    background: transparent;
+    color: white;
     margin: 30px;
-    height: auto;
-    width: 30px; 
+    height: 300px;
+    width: 300px; 
 
   }
+
+  .page_title {
+    color : $color-red;
+  }
+
+  .navbar {
+    background: transparent;
+  }
+

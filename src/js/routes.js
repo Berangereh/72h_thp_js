@@ -1,5 +1,11 @@
+import {Home} from './Home.js';
+import {PageList} from './PageList.js';
+import {PageDetail} from './PageDetail.js';
+
 const routes = {
-    "": Home,
+    "": PageList,
     "pagelist": PageList,
     "pagedetail": PageDetail,
-  };
+};
+
+export {routes};

@@ -1,5 +1,6 @@
-import '../src/sass/style.scss';
-
+import '../sass/style.scss';
+import {routes} from './routes';
+import {PageList} from './PageList';
 
 let pageArgument;
 
@@ -14,3 +15,13 @@ const setRoute = () => {
 
 window.addEventListener("hashchange", () => setRoute());
 window.addEventListener("DOMContentLoaded", () => setRoute());
+
+window.addEventListener("submit", () => {
+  const searchInput = document.getElementById('search-input').value;
+  PageList(searchInput);
+});
+
+window.addEventListener("onclick", () => {
+  const btnshowmore = document.getElementById('btnshowmore');
+  PageList("&page=2");
+});
