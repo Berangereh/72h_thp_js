@@ -21,7 +21,5 @@ window.addEventListener("submit", () => {
   PageList(searchInput);
 });
 
-window.addEventListener("onclick", () => {
-  const btnshowmore = document.getElementById('btnshowmore');
-  PageList("&page=2");
-});
+const moregames = document.getElementById("buttonshowmore");
+moregames.addEventListener("click", () => PageList());
