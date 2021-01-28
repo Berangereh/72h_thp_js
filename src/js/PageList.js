@@ -28,6 +28,14 @@ const PageList = (argument = "") => {
               datasave = response;
               console.log(datasave);
               nextpage = datasave.next;
+
+            // let gametags = [];
+            // let tagsID = [];
+            //   tags.forEach((e) => {
+            //     gametags += e.name + " - "
+            //     tagsID += e.id
+            // })
+
               datasave.results.forEach(game => {
                 
                 articles +=
@@ -39,7 +47,7 @@ const PageList = (argument = "") => {
                           <div id="hiddenCard class="card-body center" style="display: none;">
                             <p>${game.released}</p>
                             <p>${game.rating}/5 - ${game.ratings_count} votes </p>
-                            <p>${game.tags[0].name}</p>
+                            <p>${game.tags}</p>
                           </div> 
 
                           <div id="card_title" class ="card-body">

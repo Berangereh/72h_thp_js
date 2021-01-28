@@ -53,3 +53,22 @@ body {
   font-weight: bold;
 }
 
+.btnWebsite {
+  background: $color-red;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  bottom: 0;
+}
+
+.jumbotron {
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  
+}
+
+.highlight{
+  font-weight: bold;
+  color: $color-red;
+}

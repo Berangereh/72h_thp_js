@@ -10662,3 +10662,22 @@ body {
   color: white;
   font-weight: bold;
 }
+
+.btnWebsite {
+  background: #ff1414;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  bottom: 0;
+}
+
+.jumbotron {
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+}
+
+.highlight {
+  font-weight: bold;
+  color: #ff1414;
+}
